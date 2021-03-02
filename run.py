@@ -3,7 +3,6 @@ from db import db
 
 
 db.init_app(app)
-app.run(debug=False)
 
 
 @app.before_first_request
