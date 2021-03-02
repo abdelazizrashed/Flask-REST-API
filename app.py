@@ -30,6 +30,4 @@ api.add_resource(UserRegister, '/register')
 if __name__ == '__main__':
     from db import db
     db.init_app(app)
-    website_url = 'random.random:5000'
-    # app.config['SERVER_NAME'] = website_url
     app.run(debug=False)
